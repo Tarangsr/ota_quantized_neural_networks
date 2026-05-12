@@ -164,14 +164,6 @@ L_total = (1 - α)·CE(student, hard_labels) + α·KD_loss   # α = 0.7
 
 ---
 
-## Future Work
-
-1. **USRP Hardware Deployment** — Validate over real RF link; encode QPSK weights as BPSK on OFDM subcarriers; measure SNR at 1m / 5m / 10m
-2. **Noise-Aware Training** — Inject AWGN inside training loop; expected +3–5% accuracy at 15–20 dB SNR
-3. **Complex-Valued Kernels** — True complex `W = W_real + j·W_imag` with QAM-constrained components; loss on `|Y|²` (RF power)
-
----
-
 ## References
 
 1. Liu, K. et al. *WISE: Wireless In-Situ Execution for Computing at the RF Level.* Science Advances, 2024.
